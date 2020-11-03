@@ -139,18 +139,23 @@ body{
 	text-align: center;
 }
 
-.top {
-	position: fixed;
-	width: 100%;
-	top: 0;
-	z-index: 1;
+nav {
+    background-color: beige;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+ }
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: beige;
 }
-
-.right {
-	float: right;
-	padding: 10px 50px 0px 0px;
+nav a:hover {
+    font-weight: bold;
 }
-
-.left {
-	float: left;
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
 }
