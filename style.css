@@ -9,7 +9,7 @@ body{
 .formulir{
   max-width: 80%;
 }
-#section-title{
+#judul{
   text-align: center;
   margin: 5px 0;
   color: darkslategray;
@@ -58,17 +58,20 @@ section{
   max-width:1200px;
   overflow: hidden;
 }
-.col-1 {
-    width: 25%;
+.col-1{
+    width: 65%;
 }
-.col-2 {
+.col-2{
     width: 50%;
 }
-.col-3 {
-    width: 75%;
+.col-3{
+    width: 33.3334%;
 }
-.col-4 {
-    width: 100%;
+.col-4{
+    width: 25%;
+}
+.col-5 {
+    width: 20%;
 }
 .centered {
   display: block;
@@ -80,6 +83,14 @@ section{
 }
 .right {
     float: right;
+}
+.grid-content{
+    float: left;
+    padding: 30px;
+    display: block;
+    position: relative;
+    align-items: center;
+    align-content: center;
 }
 .formulir {
   background:whitesmoke;
@@ -113,12 +124,13 @@ table {
   width: 100%;
 }
 img {
-	height: fit-content;
-	width: fit-content;
 	margin-right: auto;
 	z-index: -1;
   }
 aside {
     width: 100%;
     padding: 0;
+}
+footer {
+    background-color: black;
 }
