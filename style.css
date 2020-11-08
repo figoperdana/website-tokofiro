@@ -6,22 +6,18 @@
 body {
     background-color: darkgrey;
 }
-
+#judul{
+  text-align: center;
+  margin: 5px 0;
+  color: darkslategray;
+  font-size: 25px;
 .formulir {
     max-width: 80%;
-}
-
-#section-title {
-    text-align: center;
-    margin: 5px 0;
-    color: darkslategray;
-    font-size: 25px;
 }
 
 form .button {
     margin-top: 10px;
 }
-
 form .asking {
     text-align: center;
     margin-top: 0px;
@@ -74,23 +70,21 @@ section {
     max-width: 1200px;
     overflow: hidden;
 }
-
-.col-1 {
-    width: 25%;
+.col-1{
+    width: 65%;
 }
-
-.col-2 {
+.col-2{
     width: 50%;
 }
-
-.col-3 {
-    width: 75%;
+.col-3{
+    width: 33.3334%;
 }
-
-.col-4 {
-    width: 100%;
+.col-4{
+    width: 25%;
 }
-
+.col-5 {
+    width: 20%;
+}
 .centered {
     display: block;
     margin-left: auto;
@@ -104,7 +98,14 @@ section {
 .right {
     float: right;
 }
-
+.grid-content{
+    float: left;
+    padding: 30px;
+    display: block;
+    position: relative;
+    align-items: center;
+    align-content: center;
+}
 .formulir {
     background: whitesmoke;
     padding: 20px;
@@ -112,9 +113,7 @@ section {
     max-width: 100%;
     min-width: 300px;
 }
-
-input,
-select {
+input, select {
     background: #fff;
     color: grey;
     border: 0;
@@ -125,11 +124,9 @@ select {
     width: 100%;
     margin-bottom: 10px;
 }
-
 input::placeholder {
     color: grey;
 }
-
 .button {
     text-align: center;
     color: #fff;
@@ -137,19 +134,17 @@ input::placeholder {
     font-weight: bold;
     text-decoration: none;
 }
-
 table {
     width: 100%;
 }
-
 img {
-    height: fit-content;
-    width: fit-content;
-    margin-right: auto;
-    z-index: -1;
-}
-
+	margin-right: auto;
+	z-index: -1;
+  }
 aside {
     width: 100%;
     padding: 0;
+}
+footer {
+    background-color: black;
 }
