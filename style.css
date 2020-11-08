@@ -1,62 +1,74 @@
 @font-face {
-	font-family: GothamMedium ;
-	src: url("GothamMedium")  format('embedded-opentype'),
-	url('GothamMedium.ttf') format('opentype')
+    font-family: GothamMedium;
+    src: url("GothamMedium") format('embedded-opentype'), url('GothamMedium.ttf') format('opentype')
 }
-body{
+
+body {
     background-color: darkgrey;
-  }
-.formulir{
-  max-width: 80%;
 }
 #judul{
   text-align: center;
   margin: 5px 0;
   color: darkslategray;
   font-size: 25px;
+.formulir {
+    max-width: 80%;
 }
-form .button{
-  margin-top: 10px;
+
+form .button {
+    margin-top: 10px;
 }
-form .asking{
-  text-align: center;
-  margin-top: 0px;
+form .asking {
+    text-align: center;
+    margin-top: 0px;
 }
+
 *,
 *:before,
-*:after{
-      box-sizing:border-box;
-  }
-html, body{
-  height: 100%;
-  margin: 0px;
-  scroll-behavior: smooth;
-  transition-duration: 5000ms;
-  min-height: 500px;
-  }
-h1, h2, h3, h4{
-  font-family: sans-serif;
+*:after {
+    box-sizing: border-box;
 }
+
+html,
 body {
-  background-color: whitesmoke;
-  font-size: 16px;
+    height: 100%;
+    margin: 0px;
+    scroll-behavior: smooth;
+    transition-duration: 5000ms;
+    min-height: 500px;
 }
-a{
-  color: darkblue;
-  text-decoration: none;
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: GothamMedium;
 }
+
+body {
+    background-color: whitesmoke;
+    font-size: 16px;
+}
+
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+
 a:hover {
-  font-weight: bold;
-  text-decoration: underline;
+    font-weight: bold;
+    text-decoration: underline;
 }
-section{
-  margin-left: auto;
-  margin-right: auto;
+
+section {
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .grid {
-  width: 100%;
-  max-width:1200px;
-  overflow: hidden;
+    width: 100%;
+    max-width: 1200px;
+    overflow: hidden;
 }
 .col-1{
     width: 65%;
@@ -74,13 +86,15 @@ section{
     width: 20%;
 }
 .centered {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .left {
     float: left;
 }
+
 .right {
     float: right;
 }
@@ -93,35 +107,35 @@ section{
     align-content: center;
 }
 .formulir {
-  background:whitesmoke;
-  padding: 20px;
-  border-radius: 15px;
-  max-width:100%;
-  min-width: 300px;
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 100%;
+    min-width: 300px;
 }
 input, select {
-  background: #fff;
-  color : grey;
-  border: 0;
-  padding: 7px 10px;
-  border: 1px solid darkgrey;
-  border-radius: 5px;
-  font-size: 15px;
-  width: 100%;
-  margin-bottom: 10px;
+    background: #fff;
+    color: grey;
+    border: 0;
+    padding: 7px 10px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 10px;
 }
 input::placeholder {
-  color: grey;
+    color: grey;
 }
 .button {
-  text-align: center;
-  color: #fff;
-  background-color:lightslategray;
-  font-weight:bold;
-  text-decoration:none;
+    text-align: center;
+    color: #fff;
+    background-color: lightslategray;
+    font-weight: bold;
+    text-decoration: none;
 }
 table {
-  width: 100%;
+    width: 100%;
 }
 img {
 	margin-right: auto;

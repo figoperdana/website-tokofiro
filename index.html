@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Toko Firo</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="image/jpg" href="img/LOGO FIRO5 2.png">
-    </head>
-    <body>
-        <main>
-            <div class="grid left col-2">
-                <img src="img/Component 16.png" alt="png">
+
+<head>
+    <title>Toko Firo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="img/LOGO FIRO5 2.png">
+</head>
+
+<body>
+    <main>
+        <div class="grid left col-2">
+            <img src="img/Component 16.png" alt="png">
+        </div>
+        <aside>
+            <div class="grid right col-2">
+                <form class="formulir" style="margin-top: 100px;" action="MainPage.html">
+                    <h2 id="section-title" style="font-family:'GothamMedium'">Toko Firo</h2>
+                    <table>
+                        <tr>
+                            <td>
+                                <input id="email" type="email" onkeyup="fill_email()" placeholder="Email" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id="password" type="password" onkeyup="fill_password()" placeholder="Password" required>
+                            </td>
+                        </tr>
+                    </table>
+                    <input class="button" type="submit" value="Masuk" href="MainPage.html">
+                    <p class="asking">Belum punya akun? <a href="sign up.html">Daftar</a></p>
+                </form>
             </div>
-            <aside>
-                <div class="grid right col-2">
-                    <form class="formulir" style="margin-top: 100px;">
-                      <h2 id="section-title" style="font-family:'GothamMedium'">Toko Firo</h2>
-                      <table>
-                        <tr>
-                          <td>
-                            <input id="email" type="email" onkeyup="fill_email()" placeholder="Email" required>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <input id="password" type="password" onkeyup="fill_password()" placeholder="Password" required>
-                          </td>
-                        </tr>
-                      </table>
-                      <input class="button" type="submit" value="Masuk">
-                      <p class="asking">Belum punya akun? <a href="sign up.html">Daftar</a></p>
-                    </form>
-                  </div>
-            </aside>
-        </main>
-    </body>
+        </aside>
+    </main>
+</body>
+
 </html>
