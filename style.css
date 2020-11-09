@@ -168,3 +168,16 @@ aside {
 footer {
     background-color: black;
 }
+
+.material-icons {
+    bottom: 30px;
+    float: right;
+    outline: none;
+    border-radius: 50%;
+}
+
+header {
+    height: 45px;
+    width: 100%;
+    background: black;
+}
