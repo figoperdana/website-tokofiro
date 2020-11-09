@@ -1,84 +1,99 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Toko Firo</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="image/jpg" href="img/LOGO FIRO5 2.png">
-    </head>
-    <body>
-        <header></header>
-        <main>
-            <div>
-                <img src="img/toko firo.png" alt="Toko Firo">
+
+<head>
+    <title>Toko Firo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="img/LOGO FIRO5 2.png">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <button class="material-icons">
+            account_circle
+    </button>
+    <br>
+    <br>
+    <div id="navbar">
+        <a href="#">Home</a>
+        <a href="#">Collection</a>
+        <a href="#">About Us</a>
+        <a href="#">Checkout</a>
+
+    </div>
+
+    <main>
+        <div>
+            <img src="img/toko firo.png" alt="Toko Firo">
+        </div>
+        <br>
+        <section id="preview">
+            <div class="grid centered" id="preview">
+                <h2 id="judul" style="font-family:'GothamMedium'">Preview Produk</h2>
+                <div class="grid-content col-3">
+                    <img src="img/collection/kalkulator.jpg" alt="produk" width="200px" class="box">
+                    <p>Casio Kalkulator FX 350 MS</p>
+                    <p>Rp 185.000,00</p>
+                </div>
+                <div class="grid-content col-3">
+                    <img src="img/collection/buku kiky.jpg" alt="produk" width="200px" class="box">
+                    <p>Kiky Buku Hard Cover Folio 100 Halaman</p>
+                    <p>Rp 25.000,00</p>
+                </div>
+                <div class="grid-content col-3">
+                    <img src="img/collection/watercolor.png" alt="produk" width="270px" class="box">
+                    <p>Simbalion Watercolor Cake</p>
+                    <p>Rp 54.000,00</p>
+                </div>
             </div>
             <br>
-            <section id="preview">
-                <div class="grid centered" id="preview">
-                    <h2 id="judul" style="font-family:'GothamMedium'">Preview Produk</h2>
-                    <div class="grid-content col-3">
-                        <img src="img/collection/kalkulator.jpg" alt="produk" width="200px" class="box">
-                        <p>Casio Kalkulator FX 350 MS</p>
-                        <p>Rp 185.000,00</p>
-                    </div>
-                    <div class="grid-content col-3">
-                        <img src="img/collection/buku kiky.jpg" alt="produk" width="200px" class="box">
-                        <p>Kiky Buku Hard Cover Folio 100 Halaman</p>
-                        <p>Rp 25.000,00</p>
-                    </div>
-                    <div class="grid-content col-3">
-                        <img src="img/collection/watercolor.png" alt="produk" width="270px" class="box">
-                        <p>Simbalion Watercolor Cake</p>
-                        <p>Rp 54.000,00</p>
-                    </div>
+        </section>
+        <section id="peta">
+            <div class="grid centered" id="map">
+                <h2 id="judul" style="font-family:'GothamMedium'">Kunjungi Toko Kami</h2>
+                <div class="grid-content col-2">
+                    <strong>ALAMAT :</strong>
+                    <p>Jl. Raya Yos Sudarso BA-9 Sidopekso</p>
+                    <p>Kraksaan, Kabupaten Probolinggo</p>
+                    <p>Provinsi Jawa Timur, Indonesia</p>
+                    <p>67282</p>
+                    <br>
+                    <strong>JAM OPERASIONAL TOKO :</strong>
+                    <p>Senin - Minggu : 07.00 - 21.00 WIB</p>
                 </div>
-            <br>
-            </section>
-            <section id="peta">
-                <div class="grid centered" id="map">
-                    <h2 id="judul" style="font-family:'GothamMedium'">Kunjungi Toko Kami</h2>
-                    <div class="grid-content col-2">
-                        <strong>ALAMAT :</strong>
-                        <p>Jl. Raya Yos Sudarso BA-9 Sidopekso</p>
-                        <p>Kraksaan, Kabupaten Probolinggo</p>
-                        <p>Provinsi Jawa Timur, Indonesia</p>
-                        <p>67282</p>
-                        <br>
-                        <strong>JAM OPERASIONAL TOKO :</strong>
-                        <p>Senin - Minggu : 07.00 - 21.00 WIB</p>
-                    </div>
-                    <div class="grid-content col-2">
-                        <img src="img/Maps 1.png" alt="Peta Toko Firo" width="360px">   
-                    </div>
+                <div class="grid-content col-2">
+                    <img src="img/Maps 1.png" alt="Peta Toko Firo" width="360px">
                 </div>
-            </section>
-            <br>
-            <section id="hubungi">
-                <div class="grid centered" id="hubungikami">
-                    <h2 id="judul" style="font-family:'GothamMedium'">Hubungi Kami</h2>
-                    <p style="text-align: center;">Memiliki Pertanyaan / Kendala ? Kami akan selalu siap sedia untuk membantu!</p>
-                    <p style="text-align: center;">Hubungi kami pada 081216195308 atau kirim email pada ffitridwia@gmail.com</p>
-                    <div class="grid-content col-2">
-                        <input id="namalengkap" type="text" onkeyup="fill_namalengkap()" placeholder="Nama Lengkap" required>
-                        <input id="email" type="email" onkeyup="fill_email()" placeholder="Email" required>
-                        <input id="kendala" type="text" onkeyup="fill_kendala()" placeholder="Judul Kendala" required>
-                    </div>
-                    <div class="grid-content col-2">
-                        <textarea rows="7" cols="70" name="pesan" placeholder="Pesan"></textarea>
-                    </div>
+            </div>
+        </section>
+        <br>
+        <section id="hubungi">
+            <div class="grid centered" id="hubungikami">
+                <h2 id="judul" style="font-family:'GothamMedium'">Hubungi Kami</h2>
+                <p style="text-align: center;">Memiliki Pertanyaan / Kendala ? Kami akan selalu siap sedia untuk membantu!</p>
+                <p style="text-align: center;">Hubungi kami pada 081216195308 atau kirim email pada ffitridwia@gmail.com</p>
+                <div class="grid-content col-2">
+                    <input id="namalengkap" type="text" onkeyup="fill_namalengkap()" placeholder="Nama Lengkap" required>
+                    <input id="email" type="email" onkeyup="fill_email()" placeholder="Email" required>
+                    <input id="kendala" type="text" onkeyup="fill_kendala()" placeholder="Judul Kendala" required>
                 </div>
-            </section>
-        </main>
-    </body>
-    <footer>
-        <div class="footer">
-            <div class="grid centered">
-                <div class="left">
-                    <img src="img/LOGO FIRO5 4.png" width="90px">
+                <div class="grid-content col-2">
+                    <textarea rows="7" cols="70" name="pesan" placeholder="Pesan"></textarea>
                 </div>
-                <div class="right">
-                    <p style="color:whitesmoke">Toko Firo - 2020 All Rights Reserved</p>
-                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<footer>
+    <div class="footer">
+        <div class="grid centered">
+            <div class="left">
+                <img src="img/LOGO FIRO5 4.png" width="90px">
+            </div>
+            <div class="right">
+                <p style="color:whitesmoke">Toko Firo - 2020 All Rights Reserved</p>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
 </html>
