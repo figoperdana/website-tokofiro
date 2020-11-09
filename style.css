@@ -11,6 +11,7 @@ body {
   margin: 5px 0;
   color: darkslategray;
   font-size: 25px;
+
 .formulir {
     max-width: 80%;
 }
@@ -147,4 +148,8 @@ aside {
 }
 footer {
     background-color: black;
+}
+.box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
