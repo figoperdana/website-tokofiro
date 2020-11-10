@@ -1,79 +1,83 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Toko Firo</title>
-        <link rel="icon" type="image/png" href="/img/LOGO FIRO5 2.png"/>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul class="nav-left">
-                    <a href="MainPage.html"><img src="img/LOGO FIRO5 4.png" width="60px" id="logo"></a>
-                </ul>
-                <ul class="nav-right">
-                    <a href="MainPage.html">Home</a>
-                    <a href="collection.html">Collection</a>
-                    <a href="MainPage.html#kunjungi">About Us</a>
-                    <a href="checkout.html">Checkout</a>
-                    <a href="profile.html" class="fas fa-user-circle"></a>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section id="pembayaran">
-                <div class="grid centered col-2">
-                    <form class="formulir" style="margin-top: 100px;">
-                        <h2 id="judul" style="font-family:'GothamMedium'">Pembayaran</h2>
-                        <table>
-                            <tr>
-                                <td>
-                                    <input id="email" type="email" onkeyup="fill_email()" placeholder="Email" required>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                  <input id="alamat" type="text" onkeyup="fill_alamat()" placeholder="Dikirim ke alamat" required>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <select name="mtdpengiriman" id="mtdpengiriman" class="form-control">
+
+<head>
+    <title>Toko Firo</title>
+    <link rel="icon" type="image/png" href="/img/LOGO FIRO5 2.png" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav-left">
+                <a href="MainPage.html"><img src="img/LOGO FIRO5 4.png" width="60px" id="logo"></a>
+            </ul>
+            <ul class="nav-right">
+                <a href="MainPage.html">Home</a>
+                <a href="collection.html">Collection</a>
+                <a href="MainPage.html#kunjungi">About Us</a>
+                <a href="checkout.html">Checkout</a>
+                <a href="profile.html" class="fas fa-user-circle"></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="pembayaran">
+            <div class="grid centered col-2">
+                <form class="formulir" style="margin-top: 100px;">
+                    <h2 id="judul" style="font-family:'GothamMedium'">Pembayaran</h2>
+                    <table>
+                        <tr>
+                            <td>
+                                <input id="email" type="email" onkeyup="fill_email()" placeholder="Email" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id="alamat" type="text" onkeyup="fill_alamat()" placeholder="Dikirim ke alamat" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select name="mtdpengiriman" id="mtdpengiriman" class="form-control">
                                         <option value="0" selected>- Pilih Metode Pengiriman -</option> 
                                         <option value="SiCepat REG">SiCepat REG</option>
                                         <option value="J&T Express">J&T Express</option>
                                         <option value="SiCepat Halu">SiCepat Halu</option>
                                         <option value="JNE Reguler">JNE Reguler</option>
                                     </select>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <select name="mtdpembayaran" id="mtdpembayaran" class="form-control">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select name="mtdpembayaran" id="mtdpembayaran" class="form-control">
                                         <option value="0" selected>- Pilih Metode Pembayaran -</option> 
                                         <option value="Bank Mandiri">Bank Mandiri</option>
                                         <option value="Bank Mandiri">Bank Mandiri</option>
                                     </select>
-                                </td>
-                            </tr>
-                        </table>
-                        <input class="button" type="submit" name="buatpesanan" value="Buat Pesanan">
-                    </form>
-                </div>
-            </section>
-        </main>
-    </body>
-    <footer>
-        <div class="footer">
-            <div class="grid centered">
-                <div class="left">
-                    <img src="img/LOGO FIRO5 4.png" width="60px">
-                </div>
-                <div class="right">
-                    <p style="color:whitesmoke">Toko Firo - 2020 All Rights Reserved</p>
-                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <input class="button" type="submit" name="buatpesanan" value="Buat Pesanan">
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+<footer>
+    <div class="footer">
+        <div class="grid centered">
+            <div class="left">
+                <p></p>
+                <img src="img/LOGO FIRO5 4.png" width="60px">
+            </div>
+            <div class="right">
+                <p style="color:whitesmoke">Toko Firo - 2020 All Rights Reserved</p>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
+
 </html>
