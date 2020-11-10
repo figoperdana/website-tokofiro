@@ -17,7 +17,7 @@
             <ul class="nav-right">
                 <a href="MainPage.html">Home</a>
                 <a href="collection.html">Collection</a>
-                <a href="about us.html">About Us</a>
+                <a href="#kunjungi">About Us</a>
                 <a href="checkout.html">Checkout</a>
                 <a href="profile.html" class="fas fa-user-circle"></a>
             </ul>
@@ -49,7 +49,7 @@
             </div>
             <br>
         </section>
-        <section id="peta">
+        <section id="kunjungi">
             <div class="grid centered" id="map">
                 <h2 id="judul" style="font-family:'GothamMedium'">Kunjungi Toko Kami</h2>
                 <div class="grid-content col-2">
@@ -73,14 +73,17 @@
                 <h2 id="judul" style="font-family:'GothamMedium'">Hubungi Kami</h2>
                 <p style="text-align: center;">Memiliki Pertanyaan / Kendala ? Kami akan selalu siap sedia untuk membantu!</p>
                 <p style="text-align: center;">Hubungi kami pada 081216195308 atau kirim email pada ffitridwia@gmail.com</p>
-                <div class="grid-content col-2">
-                    <input id="namalengkap" type="text" onkeyup="fill_namalengkap()" placeholder="Nama Lengkap" required>
-                    <input id="email" type="email" onkeyup="fill_email()" placeholder="Email" required>
-                    <input id="kendala" type="text" onkeyup="fill_kendala()" placeholder="Judul Kendala" required>
-                </div>
-                <div class="grid-content col-2">
-                    <textarea rows="7" cols="70" name="pesan" placeholder="Pesan"></textarea>
-                </div>
+                <form method="POST">
+                    <div class="grid-content col-2">
+                        <input id="namalengkap" type="text" onkeyup="fill_namalengkap()" placeholder="Nama Lengkap" required>
+                        <input id="email" type="email" onkeyup="fill_email()" placeholder="Email" required>
+                        <input id="kendala" type="text" onkeyup="fill_kendala()" placeholder="Judul Kendala" required>
+                    </div>
+                    <div class="grid-content col-2">
+                        <textarea rows="5" cols="74" name="pesan" placeholder="Pesan"></textarea>
+                        <input class="button" type="submit" name="kirimpesan" value="Kirim Pesan">
+                    </div>
+                </form>
             </div>
         </section>
     </main>
