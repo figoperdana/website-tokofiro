@@ -98,6 +98,10 @@ html {
   .col-5 {
     width: 20%;
   }
+
+  .col-6 {
+    width: 9%;
+  }
   
   .centered {
     display: block;
