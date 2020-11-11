@@ -3,44 +3,36 @@
 
 <head>
     <title>Toko Firo</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Form.css">
     <link rel="icon" type="image/jpg" href="img/LOGO FIRO5 2.png">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
-    <main>
-        <div class="grid left col-2">
-            <img src="img/Component 16.png" alt="png">
+    <div id="login-box">
+        <div class="right-box">
+            <h1> Sign Up</h1>
+
+            <input type="text" name="username" placeholder="Username" />
+            <input type="text" name="email" placeholder="Email" />
+            <input type="password" name="password" placeholder="Password" />
+
+            <input type="password" name="password2" placeholder="Retype password" />
+
+            <input type="submit" name="signup-button" value="Sign Up" />
+
         </div>
-        <aside>
-            <div class="grid right col-2">
-                <form class="formulir" style="margin-top: 100px;" action="MainPage.html">
-                    <h2 id="judul" style="font-family:'GothamMedium'">Toko Firo</h2>
-                    <table>
-                        <tr>
-                            <td>
-                                <input id="email" type="email" onkeyup="fill_email()" placeholder="Email" required>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input id="password" type="password" onkeyup="fill_password()" placeholder="Password" required>
-                            </td>
-                        </tr>
-                    </table>
-                    <input class="button" type="submit" value="Masuk" href="MainPage.html">
-                    <div class="grid centered col-6">
-                        <a href="https://myaccount.google.com/" class="fab fa-google-plus"></a>
-                        <a href="https://www.facebook.com/" class="fab fa-facebook"></a>
-                        <a href="https://twitter.com/" class="fab fa-twitter-square"></a>
-                    </div>
-                    <br>
-                    <p class="asking">Belum punya akun? <a href="sign up.html">Daftar</a></p>
-                </form>
-            </div>
-        </aside>
-    </main>
+        <div class="left-box">
+            <span class="signinwith">Sign in with<br/>Social Network     </span>
+
+            <button class="social facebook">Log in with Facebook</button>
+            <button class="social twitter">Log in with Twitter</button>
+            <button class="social google">Log in with Google+</button>
+
+
+        </div>
+        <div class="or">OR</div>
+    </div>
 </body>
 
 </html>

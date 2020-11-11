@@ -185,6 +185,7 @@
         }
         
         header {
+            position: fixed;
             height: 45px;
             width: 100%;
             background: black;
@@ -194,7 +195,7 @@
             margin: auto;
             overflow: hidden;
             position: -webkit-sticky;
-            position: sticky;
+            position: fixed;
             top: 0;
             width: auto;
             height: 45px;
@@ -232,6 +233,10 @@
         
         .nav-left {
             float: left;
+        }
+        
+        ul .nav-right {
+            float: right!important;
         }
         
         .gambartokofiro {
