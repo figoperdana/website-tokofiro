@@ -191,14 +191,14 @@
             width: 100%;
             z-index: 99;
             background: black;
-            box-shadow: 0 3px 20px 0 rgba(0,0,0,0.15);
+            box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.15);
         }
         
         .margin-1200 {
-            width :1200px;
+            width: 1200px;
             margin: 0 auto;
         }
-
+        
         nav a {
             float: left;
             display: block;
@@ -236,7 +236,6 @@
         }
         
         .gambartokofiro {
-            
             width: 100%;
         }
         
@@ -251,4 +250,8 @@
             flex: 1 1;
             border-bottom: 4px solid #000;
             margin: auto;
+        }
+        
+        #about-us {
+            height: 2cm;
         }
