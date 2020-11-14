@@ -302,3 +302,9 @@ h2:after {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.detail {
+    font-family: GothamMedium;
+    font-size: 20px;
+    font-weight: bold;
+}

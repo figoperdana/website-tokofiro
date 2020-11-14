@@ -1,0 +1,189 @@
+@font-face {
+    font-family: GothamMedium;
+    src: url("GothamMedium") format('embedded-opentype'), url('GothamMedium.ttf') format('opentype')
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.box {
+    display: flex;
+    background-color: whitesmoke;
+    width: auto;
+    height: 785px;
+}
+
+.SignIn {
+    position: absolute;
+    top: 10px;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.Login {
+    position: absolute;
+    top: 10px;
+    font-size: 30px;
+    margin-left: 150px;
+}
+
+.box2 {
+    display: flex;
+    background-color: whitesmoke;
+    width: auto;
+    height: auto;
+}
+
+.box3 {
+    display: flex;
+    background-color: whitesmoke;
+    width: auto;
+    height: auto;
+    margin-top: -140px;
+    margin-left: 50px;
+}
+
+.kita {
+    position: absolute;
+    top: 200px;
+    margin-left: 38px;
+    color: rgb(0, 71, 255);
+}
+
+.login {
+    background-color: whitesmoke;
+    margin-top: 220px;
+    width: 350px;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.login h2 {
+    margin: 0 0 20px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.login .input-group {
+    position: relative;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.login .input-group input {
+    height: 50px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 18px;
+    border: 3px solid rgb(0, 71, 255);
+    border-radius: 50px;
+}
+
+.login .input-group span {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    padding: 0px;
+    text-transform: capitalize;
+    background-color: whitesmoke;
+}
+
+.login .input-group input:focus~span,
+.login .input-group input:valid~span {
+    top: -12px;
+    left: 20px;
+    font-size: 12px;
+    background-color: whitesmoke;
+    padding: 2px 4px;
+    border: 1px solid rgb(0, 71, 255);
+    border-radius: 50px;
+}
+
+.login .input-group input[type="submit"] {
+    background-color: whitesmoke;
+    border: 2px solid rgb(0, 71, 255);
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    width: 40%;
+    transition: 0.5s;
+}
+
+.login .input-group input[type="submit"]:hover {
+    width: 100%;
+    background-color: rgba(0, 60, 255, 0.63);
+    border: 1px solid rgb(0, 71, 255);
+    color: whitesmoke;
+}
+
+.signinwith {
+    font-size: 3.0vh;
+}
+
+button.social {
+    margin-bottom: 10px;
+    width: 220px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    font-family: "GothamMedium";
+    font-weight: 500;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.facebook {
+    background: rgb(5, 0, 255);
+    background: linear-gradient(4deg, rgba(5, 0, 255, 1) 0%, rgba(240, 240, 240, 1) 100%);
+    box-shadow: 10px black;
+}
+
+.twitter {
+    background: rgb(0, 178, 255);
+    background: linear-gradient(4deg, rgba(0, 178, 255, 1) 0%, rgba(240, 240, 240, 1) 100%);
+    box-shadow: 10px black;
+}
+
+.google {
+    box-shadow: 10px black;
+    background: rgb(255, 0, 0);
+    background: linear-gradient(4deg, rgba(255, 0, 0, 1) 0%, rgba(240, 240, 240, 1) 100%);
+}
+
+.or {
+    width: 100%;
+    height: 48em;
+    border-right: 4px solid black;
+    position: relative;
+}
+
+p {
+    font-family: "GothamMedium";
+    font-size: large;
+    position: absolute;
+    right: 0;
+    top: 40%;
+    margin-right: -16px;
+    background: whitesmoke;
+}
+
+.signinwith {
+    color: rgb(0, 71, 255)
+}
+
+a:hover {
+    cursor: pointer;
+    color: black;
+}
