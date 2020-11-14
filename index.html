@@ -1,47 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Toko Firo</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/jpg" href="img/LOGO FIRO5 2.png">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
 </head>
 
 <body>
-    <aside>
-        <div class="grid right col-2">
+    <div class="container">
+        <div class="box">
             <img src="img/Component16.png" alt="png">
-            <form class="formulir" style="margin-top: 100px;" action="MainPage.html">
-                <h2 id="judul" style="font-family:'GothamMedium'">Toko Firo</h2>
-                <table>
-                    <tr>
-                        <td>
-                            <input id="email" type="email" onkeyup="fill_email()" placeholder="Email" required>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input id="password" type="password" onkeyup="fill_password()" placeholder="Password" required>
-                        </td>
-                    </tr>
-                </table>
-                <input class="button" type="submit" value="Masuk" href="MainPage.html">
-                <div class="grid centered col-6">
-                    <a href="https://myaccount.google.com/" class="fab fa-google-plus"></a>
-                    <a href="https://www.facebook.com/" class="fab fa-facebook"></a>
-                    <a href="https://twitter.com/" class="fab fa-twitter-square"></a>
-                </div>
-                <br>
-                <p class="asking">Belum punya akun? <a href="sign up.html">Daftar</a></p>
+        </div>
+        <div class="box2">
+            <h3 class="SignIn" style="font-family:GothamMedium;" href="">Masuk</h3>
+            <h3 class="Login" style="font-family:GothamMedium;"> / Daftar</h3>
+            <form>
+                <h2 class="kita" style="font-family: GothamMedium;">Kita Membutuhkan...</h2>
+                <div class="login" style="font-family: GothamMedium;">
+                    <div class="input-group">
+                        <input type="text" required="">
+                        <span>Email Anda...</span>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" required="">
+                        <span>Password Anda...</span>
+                    </div>
+                    <div class="input-group">
+                        <input type="submit" value="Lanjut">
             </form>
-            <main>
-                <div class="grid left col-2">
-                    <img src="img/Component16.png" alt="png">
-                </div>
-    </aside>
-    </main>
-    </div>
+            </div>
+            </div>
+            <div class="or">
+                <p>OR</p>
+            </div>
+        </div>
+        <div class="box3">
+            <div class="button">
+                <span class="signinwith" style="font-family: GothamMedium;">Login Via </span>
+                <br>
+                <br>
+                <button class="social facebook">Log in with Facebook</button>
+                <br>
+                <button class="social twitter">Log in with Twitter</button>
+                <br>
+                <button class="social google">Log in with Google+</button>
+            </div>
+        </div>
 </body>
 
 </html>
