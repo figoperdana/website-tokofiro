@@ -4,7 +4,7 @@
 <head>
     <title>Toko Firo</title>
     <link rel="icon" type="image/png" href="/img/LOGO FIRO5 2.png" />
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="profile.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
 </head>
 
@@ -35,65 +35,47 @@
         </nav>
     </header>
     <br>
-    <main>
-        <section id="profile">
-            <div class="grid centered col-2">
-                <form class="formulir" style="margin-top: 100px;">
-                    <h2 id="judul" style="font-family:'GothamMedium'">Biodata Diri</h2>
-                    <table>
-                        <tr>
-                            <td>
-                                <input id="namalengkap" type="text" onkeyup="fill_namalengkap()" placeholder="Nama Lengkap" required>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input id="tgllahir" type="date" onkeyup="fill_tgllahir()" required>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <select name="jnskelamin" id="jnskelamin" class="form-control">
-                            <option value="0" selected>- Pilih Jenis Kelamin -</option> 
-                            <option value="1">Pria</option>
-                            <option value="2">Wanita</option>
-                          </select>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input id="email" type="email" onkeyup="fill_email()" placeholder="Email" required>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input id="notelp" type="text" onkeyup="fill_notelp()" placeholder="Nomor Telepon" required>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input id="alamat" type="text" onkeyup="fill_alamat()" placeholder="Alamat rumah" required>
-                            </td>
-                        </tr>
-                    </table>
-                    <input class="button" type="submit" value="Simpan" href="MainPage.html">
-                </form>
+    <div id="container">
+        <div class="box-left">
+            <h3>Foto Profile</h3>
+            <div class="gambar">
+                <img src="img/ProfileFitri.png" alt="png">
             </div>
-        </section>
-    </main>
-</body>
-<footer>
-    <div class="footer">
-        <div class="grid centered">
-            <div class="left">
-                <p></p>
-                <img src="img/LOGO FIRO5 4.png" width="60px">
+            <a class="ganti-foto">
+            Ganti Foto
+        </a>
+            <p> Besar file: maksimum 10.000.000 bytes (10 Megabytes) Ekstensi file yang diperbolehkan: .JPG .JPEG .PNG</p>
+        </div>
+        <div class="box-right">
+            <h3>Biodata Diri</h3>
+            <p>
+                <b>Nama : </b> Fitri Dwi Alfina <span style="color: green; margin-left: 15px; font-size: 14px;">ubah</span>
+            </p>
+            <p>
+                <b>Tanggal Lahir : </b> 7 September 2000 <span style="color: green; margin-left: 15px; font-size: 14px">ubah</span>
+            </p>
+            <p>
+                <b>Jenis Kelamin : </b> Wanita <span style="color: green; margin-left: 15px; font-size: 14px">ubah</span>
+            </p>
+            <p>
+                <b>Kelamin : </b> ffitridwia@gmail.com <span style="color: green; margin-left: 15px; font-size: 14px">ubah</span>
+            </p>
+            <p>
+                <b>No. Hp : </b> 082124353292 <span style="color: green; margin-left: 15px; font-size: 14px">ubah</span>
+            </p>
+            <p>
+                <b>Alamat : </b> Jl.Rinjani No.15, Kode Pos 68414 <span style="color: green; margin-left: 15px; font-size: 14px">ubah</span>
+            </p>
+            <p class="spasi">
+                Kabupaten Banyuwangi, Provinsi Jawa Timur, Indonesia
+            </p>
+            <div class="button">
+                Log Out
             </div>
-            <div class="right">
-                <p style="color:whitesmoke">Toko Firo - 2020 All Rights Reserved</p>
-            </div>
+
         </div>
     </div>
-</footer>
+
+    </footer>
 
 </html>
