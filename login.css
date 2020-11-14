@@ -182,3 +182,8 @@ p {
 .signinwith {
     color: rgb(0, 71, 255)
 }
+
+a:hover {
+    cursor: pointer;
+    color: black;
+}
