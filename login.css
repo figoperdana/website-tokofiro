@@ -187,3 +187,49 @@ a:hover {
     cursor: pointer;
     color: black;
 }
+
+.input-group .button {
+    outline: none;
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: 0 0 0 rgb(255, 255, 255);
+    -webkit-tap-highlight-color: transparent;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button {
+    outline: none;
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+select,
+button {
+    outline: none;
+    box-shadow: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 71, 255);
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    text-decoration: none;
+}
