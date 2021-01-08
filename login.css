@@ -96,7 +96,7 @@ body {
     left: 20px;
     padding: 0px;
     text-transform: capitalize;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 .login .input-group input:focus~span,
@@ -104,14 +104,14 @@ body {
     top: -12px;
     left: 20px;
     font-size: 12px;
-    background-color: whitesmoke;
+    background-color: white;
     padding: 2px 4px;
     border: 1px solid rgb(0, 71, 255);
     border-radius: 50px;
 }
 
 .login .input-group input[type="submit"] {
-    background-color: whitesmoke;
+    background-color: white;
     border: 2px solid rgb(0, 71, 255);
     text-transform: uppercase;
     font-weight: bold;
@@ -124,7 +124,7 @@ body {
     width: 100%;
     background-color: rgba(0, 60, 255, 0.63);
     border: 1px solid rgb(0, 71, 255);
-    color: whitesmoke;
+    color: white;
 }
 
 .signinwith {
