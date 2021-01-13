@@ -12,6 +12,11 @@ body {
     transition: 0.5s ease-in-out;
 }
 
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
 #judul {
     text-align: center;
     margin: 5px 0;
@@ -311,4 +316,75 @@ h2:after {
 
 a:link {
     text-decoration: none;
+}
+
+.fab-container2 {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.fab-icon-holder2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: #016fb9;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.fab-icon-holder2:hover {
+    opacity: 0.8;
+}
+
+.fab-icon-holder2 i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.fab1 {
+    width: 60px;
+    height: 60px;
+    background: #d23f31;
+}
+
+.fab-options1 {
+    list-style-type: none;
+    margin: 0;
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    opacity: 0;
+    transition: all 0.3s ease;
+    transform: scale(0);
+    transform-origin: 85% bottom;
+}
+
+.fab1:hover+.fab-options1,
+.fab-options1:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.fab-options1 li {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.fab-label1 {
+    padding: 2px 5px;
+    align-self: center;
+    user-select: none;
+    white-space: nowrap;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #ffffff;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    margin-right: 10px;
 }
