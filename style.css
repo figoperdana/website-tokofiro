@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    background-color: darkgrey;
+    background-color: white;
     transition: 0.5s ease-in-out;
 }
 
@@ -20,7 +20,7 @@ body {
 #judul {
     text-align: center;
     margin: 5px 0;
-    color: darkslategray;
+    color: #f54242;
     font-size: 25px;
 }
 
@@ -57,10 +57,10 @@ h2,
 h3,
 h4 {
     font-family: GothamMedium;
+    color: black;
 }
 
 body {
-    background-color: whitesmoke;
     font-size: 16px;
 }
 
@@ -251,9 +251,9 @@ h2 {
 
 h2:before,
 h2:after {
-    content: "";
+    content: "  ";
     flex: 1 1;
-    border-bottom: 4px solid #000;
+    border-bottom: 4px solid #42bff5;
     margin: auto;
 }
 
