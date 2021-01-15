@@ -5,7 +5,8 @@
     <title>Toko Firo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="/img/LOGO FIRO5 2.png" />
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="checkout.css">
+    <script src="checkout.js" async></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
 </head>
 
@@ -29,7 +30,6 @@
                         </div>
                     </div>
                     <a href="MainPage.html#about-us" style="text-decoration: none;">About Us</a>
-                    <a href="checkout.html" style="text-decoration: none;">Checkout</a>
                     <a href="profile.html" class="fas fa-user-circle" style="text-decoration: none;"></a>
                 </ul>
             </div>
@@ -39,74 +39,103 @@
     <main>
         <br>
         <section id="koleksi">
-            <div class="grid centered" id="koleksi">
-                <div class="grid-content col-3">
-                    <a href="pulpen.html"><img src="img/collection/pulpen.jpg" alt="produk" width="200px" class="box"></a>
-                    <p>Standard Ballpoint Pen AE7</p>
-                    <p>Rp 21.000,00</p>
+            <div class="shop-items">
+                <div class="grid centered" id="koleksi">
+                    <div class="grid-content col-4 shop-item">
+                        <p class="shop-item-title">Standard Ballpoint Pen AE7</p>
+                        <a href="pulpen.html"><img src="img/collection/pulpen.jpg" alt="produk" width="200px" class="shop-item-image"></a>
+                        <p class="shop-item-price">Rp 21000</p>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <div class="grid-content col-4 shop-item">
+                        <p class="shop-item-title">Joyko Pensil 2B For Computer P-90</p>
+                        <a href="joyko pensil 2b.html"><img src="img/collection/joyko pensil 2b.jpg" alt="produk" width="200px" class="shop-item-image"></a>
+                        <p class="shop-item-price">Rp 12500</p>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <div class="grid-content col-4 shop-item">
+                        <p class="shop-item-title">Sarjana Kapur Tulis Putih</p>
+                        <a href="sarjana kapur tulis.html"><img src="img/collection/sarjana kapur tulis.jpg" alt="produk" width="200px" class="shop-item-image"></a>
+                        <p class="shop-item-price">Rp 12000</p>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
                 </div>
-                <div class="grid-content col-3">
-                    <a href="joyko pensil 2b.html"><img src="img/collection/joyko pensil 2b.jpg" alt="produk" width="200px" class="box"></a>
-                    <p>Joyko Pensil 2B For Computer P-90</p>
-                    <p>Rp 12.500,00</p>
+                <div class="grid centered" id="koleksi">
+                    <div class="grid-content col-4 shop-item">
+                        <p class="shop-item-title">Faber Castell Spidol Connector Pen 10 Warna</p>
+                        <img src="img/collection/faber spidol.jpg" alt="produk" width="200px" class="shop-item-image">
+                        <p class="shop-item-price">Rp 18000</p>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <div class="grid-content col-4 shop-item">
+                        <p class="shop-item-title">Faber Castell Pensil Warna 12 Warna Classic Short</p>
+                        <img src="img/collection/faber pensil warna.jpg" alt="produk" width="200px" class="shop-item-image">
+                        <p class="shop-item-price">Rp 15000</p>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <div class="grid-content col-4 shop-item">
+                        <p class="shop-item-title">Staedler Penghapus Pensil Rasoplast B-40 Small</p>
+                        <img src="img/collection/staedtler penghapus.jpg" alt="produk" width="200px" class="shop-item-image">
+                        <p class="shop-item-price">Rp 4000</p>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
                 </div>
-                <div class="grid-content col-3">
-                    <a href="sarjana kapur tulis.html"><img src="img/collection/sarjana kapur tulis.jpg" alt="produk" width="200px" class="box"></a>
-                    <p>Sarjana Kapur Tulis Putih</p>
-                    <p>Rp 12.000,00</p>
+                <div class="grid centered" id="koleksi">
+                    <div class="grid-content col-4 shop-item">
+                        <p class="shop-item-title">Snowman Whiteboard Marker BG-12</p>
+                        <img src="img/collection/snowman whiteboard.jpg" alt="produk" width="200px" class="shop-item-image">
+                        <p class="shop-item-price">Rp 7000</p>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <div class="grid-content col-4 shop-item">
+                        <p class="shop-item-title">Artline Highlighter EK-660</p>
+                        <img src="img/collection/artline highlighter.jpg" alt="produk" width="200px" class="shop-item-image">
+                        <p class="shop-item-price">Rp 7000</p>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <div class="grid-content col-4 shop-item">
+                        <p class="shop-item-title">Simbalion Watercolor Cake</p>
+                        <img src="img/collection/watercolor.png" alt="produk" width="200px" class="shop-item-image">
+                        <p class="shop-item-price">Rp 54000</p>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="grid centered" id="koleksi">
+                    <div class="grid-content col-4 shop-item">
+                        <p class="shop-item-title">Joyko Tip Ex Correction Fluid CF-S209</p>
+                        <img src="img/collection/joyko tip ex.jpg" alt="produk" width="200px" class="shop-item-image">
+                        <p class="shop-item-price">Rp 6000</p>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <div class="grid-content col-4 shop-item">
+                        <p class="shop-item-title">Joyko Pita Koreksi Correction Tape CT-507</p>
+                        <img src="img/collection/joyko correction tape.jpg" alt="produk" width="200px" class="shop-item-image">
+                        <p class="shop-item-price">Rp 6000</p>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <div class="grid-content col-4 shop-item">
+                        <p class="shop-item-title">Crayon Faber Castell Oil Pastel Set 24 Colours Art</p>
+                        <img src="img/collection/faber crayon.jpg" alt="produk" width="200px" class="shop-item-image">
+                        <p class="shop-item-price">Rp 42000</p>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
                 </div>
             </div>
-            <div class="grid centered" id="koleksi">
-                <div class="grid-content col-3">
-                    <a href="faber spidol.html"><img src="img/collection/faber spidol.jpg" alt="produk" width="200px" class="box"></a>
-                    <p>Faber Castell Spidol Connector Pen 10 Warna</p>
-                    <p>Rp 18.000,00</p>
-                </div>
-                <div class="grid-content col-3">
-                    <a href="faber pensil warna.html"><img src="img/collection/faber pensil warna.jpg" alt="produk" width="200px" class="box"></a>
-                    <p>Faber Castell Pensil Warna 12 Warna Classic Short</p>
-                    <p>Rp 15.000,00</p>
-                </div>
-                <div class="grid-content col-3">
-                    <a href="watercolor.html"><img src="img/collection/watercolor.png" alt="produk" width="200px" class="box"></a>
-                    <p>Simbalion Watercolor Cake</p>
-                    <p>Rp 54.000,00</p>
-                </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
             </div>
-            <div class="grid centered" id="koleksi">
-                <div class="grid-content col-3">
-                    <a href="snowman whiteboard.html"><img src="img/collection/snowman whiteboard.jpg" alt="produk" width="200px" class="box"></a>
-                    <p>Snowman Whiteboard Marker BG-12</p>
-                    <p>Rp 7.000,00</p>
-                </div>
-                <div class="grid-content col-3">
-                    <a href="artline highlighter.html"><img src="img/collection/artline highlighter.jpg" alt="produk" width="200px" class="box"></a>
-                    <p>Artline Highlighter EK-660</p>
-                    <p>Rp 7.000,00</p>
-                </div>
-                <div class="grid-content col-3">
-                    <a href="staedtler penghapus"><img src="img/collection/staedtler penghapus.jpg" alt="produk" width="200px" class="box"></a>
-                    <p>Staedler Penghapus Pensil Rasoplast B-40 Small</p>
-                    <p>Rp 4.000,00</p>
-                </div>
+            <div class="cart-items">
             </div>
-            <div class="grid centered" id="koleksi">
-                <div class="grid-content col-3">
-                    <a href="joyko tip ex.html"><img src="img/collection/joyko tip ex.jpg" alt="produk" width="200px" class="box"></a>
-                    <p>Joyko Tip Ex Correction Fluid CF-S209</p>
-                    <p>Rp 6.000,00</p>
-                </div>
-                <div class="grid-content col-3">
-                    <a href="joyko correction tape.html"><img src="img/collection/joyko correction tape.jpg" alt="produk" width="200px" class="box"></a>
-                    <p>Joyko Pita Koreksi Correction Tape CT-507</p>
-                    <p>Rp 6.000,00</p>
-                </div>
-                <div class="grid-content col-3">
-                    <a href="faber crayon.html"><img src="img/collection/faber crayon.jpg" alt="produk" width="200px" class="box"></a>
-                    <p>Crayon Faber Castell Oil Pastel Set 24 Colours Art</p>
-                    <p>Rp 42.000,00</p>
-                </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">Rp0</span>
             </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
         </section>
     </main>
 </body>

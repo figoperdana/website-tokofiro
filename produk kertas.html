@@ -5,7 +5,8 @@
     <title>Toko Firo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="/img/LOGO FIRO5 2.png" />
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="checkout.css">
+    <script src="checkout.js" async></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
 </head>
 
@@ -29,7 +30,6 @@
                         </div>
                     </div>
                     <a href="MainPage.html#about-us">About Us</a>
-                    <a href="checkout.html">Checkout</a>
                     <a href="profile.html" class="fas fa-user-circle"></a>
                 </ul>
             </div>
@@ -39,72 +39,86 @@
     <main>
         <br>
         <section id="koleksi">
-            <div class="grid centered" id="koleksi">
-                <div class="grid-content col-3">
-                    <a href="buku kiky.html"><img src="img/collection/buku kiky.jpg" alt="produk" width="200px" class="box"></a>
-                    <p>Kiky Buku Hard Cover Folio 100 Halaman</p>
-                    <p>Rp 25.000,00</p>
+            <div class="shop-items">
+                <div class="grid centered" id="koleksi">
+                    <div class="grid-content col-4 shop-item">
+                        <p class="shop-item-title">Kiky Buku Hard Cover Folio 100 Halaman</p>
+                        <img src="img/collection/buku kiky.jpg" alt="produk" width="200px" class="shop-item-image">
+                        <p class="shop-item-price">Rp 25.000</p>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <div class="grid-content col-4 shop-item">
+                        <p class="shop-item-title">Kiky Nota Kontan Besar Portrait 3 Ply</p>
+                        <img src="img/collection/kiky nota.jpg" alt="produk" width="200px" class="shop-item-image">
+                        <p class="shop-item-price">Rp 10.000</p>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <div class="grid-content col-4 shop-item">
+                        <p class="shop-item-title">Joyko Notebook Spiral (60 Sheets) B5 NB-664</p>
+                        <img src="img/collection/joyko notebook.jpg" alt="produk" width="200px" class="shop-item-image">
+                        <p class="shop-item-price">Rp 13.000</p>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
                 </div>
-                <div class="grid-content col-3">
-                    <a href="kiky folio.html"><img src="img/collection/kiky folio.jpg" alt="produk" width="200px" class="box"></a>
-                    <p>Kiky Double Folio Garis 100 Sheets</p>
-                    <p>Rp 20.000,00</p>
+                <div class="grid centered" id="koleksi">
+                    <div class="grid-content col-4 shop-item">
+                        <p class="shop-item-title">Bantex Planner Agenda #7490</p>
+                        <img src="img/collection/bantex agenda.jpg" alt="produk" width="200px" class="shop-item-image">
+                        <p class="shop-item-price">Rp 145.000</p>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <div class="grid-content col-4 shop-item">
+                        <p class="shop-item-title">Kiky Double Folio Garis 100 Sheets</p>
+                        <img src="img/collection/kiky folio.jpg" alt="produk" width="200px" class="shop-item-image">
+                        <p class="shop-item-price">Rp 20.000</p>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <div class="grid-content col-4 shop-item">
+                        <p class="shop-item-title">Sinar Dunia Buku Kwitansi Besar</p>
+                        <img src="img/collection/sinar kwitansi.jpg" alt="produk" width="200px" class="shop-item-image">
+                        <p class="shop-item-price">Rp 6.000</p>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
                 </div>
-                <div class="grid-content col-3">
-                    <a href="joyko notebook.html"><img src="img/collection/joyko notebook.jpg" alt="produk" width="200px" class="box"></a>
-                    <p>Joyko Notebook Spiral (60 Sheets) B5 NB-664</p>
-                    <p>Rp 13.000,00</p>
+                <div class="grid centered" id="koleksi">
+                    <div class="grid-content col-4 shop-item">
+                        <p class="shop-item-title">Bantex 747 Telephone and Address Book 15x23cm 7440</p>
+                        <img src="img/collection/bantex telepon.jpg" alt="produk" width="200px" class="shop-item-image">
+                        <p class="shop-item-price">Rp 65.000</p>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <div class="grid-content col-4 shop-item">
+                        <p class="shop-item-title">Sinar Dunia Buku Milimeter Block Folio</p>
+                        <img src="img/collection/milimeter.jpg" alt="produk" width="200px" class="shop-item-image">
+                        <p class="shop-item-price">Rp 6.000</p>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <div class="grid-content col-4 shop-item">
+                        <p class="shop-item-title">Kiky Kertas Sampul Buffalo 100 Sheets</p>
+                        <img src="img/collection/kertas buffalo.jpg" alt="produk" width="200px" class="shop-item-image">
+                        <p class="shop-item-price">Rp 40.000</p>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
                 </div>
-            </div>
-            <div class="grid centered" id="koleksi">
-                <div class="grid-content col-3">
-                    <a href="bantex agenda.html"><img src="img/collection/bantex agenda.jpg" alt="produk" width="200px" class="box"></a>
-                    <p>Bantex Planner Agenda #7490</p>
-                    <p>Rp 145.000,00</p>
-                </div>
-                <div class="grid-content col-3">
-                    <a href="kiky nota.html"><img src="img/collection/kiky nota.jpg" alt="produk" width="200px" class="box"></a>
-                    <p>Kiky Nota Kontan Besar Portrait 3 Ply</p>
-                    <p>Rp 10.000,00</p>
-                </div>
-                <div class="grid-content col-3">
-                    <a href="sinar kwitansi.html"><img src="img/collection/sinar kwitansi.jpg" alt="produk" width="200px" class="box"></a>
-                    <p>Sinar Dunia Buku Kwitansi Besar</p>
-                    <p>Rp 6.000,00</p>
-                </div>
-            </div>
-            <div class="grid centered" id="koleksi">
-                <div class="grid-content col-3">
-                    <a href="bantex telepon.html"><img src="img/collection/bantex telepon.jpg" alt="produk" width="200px" class="box"></a>
-                    <p>Bantex 747 Telephone and Address Book 15x23cm 7440</p>
-                    <p>Rp 65.000,00</p>
-                </div>
-                <div class="grid-content col-3">
-                    <a href="milimeter.html"><img src="img/collection/milimeter.jpg" alt="produk" width="200px" class="box"></a>
-                    <p>Sinar Dunia Buku Milimeter Block Folio</p>
-                    <p>Rp 6.000,00</p>
-                </div>
-                <div class="grid-content col-3">
-                    <a href="kertas buffalo.html"><img src="img/collection/kertas buffalo.jpg" alt="produk" width="200px" class="box"></a>
-                    <p>Kiky Kertas Sampul Buffalo @100lbr</p>
-                    <p>Rp 40.000,00</p>
-                </div>
-            </div>
-            <div class="grid centered" id="koleksi">
-                <div class="grid-content col-3">
-                    <a href="joyko kertas foto.html"><img src="img/collection/joyko kertas foto.jpg" alt="produk" width="200px" class="box"></a>
-                    <p>Joyko Kertas Foto Glossy Paper A4 GSP-A4-230gr</p>
-                    <p>Rp 25.000,00</p>
-                </div>
-                <div class="grid-content col-3">
-                    <a href="joyko loose leaf.html"><img src="img/collection/joyko loose leaf.jpg" alt="produk" width="200px" class="box"></a>
-                    <p>Joyko Loose Leaf Isi Kertas File Binder 50 Lembar B5-7026</p>
-                    <p>Rp 7.000,00</p>
-                </div>
-                <div class="grid-content col-3">
-                    <a href="kiky amplop coklat.html"><img src="img/collection/kiky amplop coklat.jpg" alt="produk" width="200px" class="box"></a>
-                    <p>Kiky Amplop Coklat Tali Folio 310 (10lbr)</p>
-                    <p>Rp 12.000,00</p>
+                <div class="grid centered" id="koleksi">
+                    <div class="grid-content col-4 shop-item">
+                        <p class="shop-item-title">Joyko Kertas Foto Glossy Paper A4 GSP-A4-230gr</p>
+                        <img src="img/collection/joyko kertas foto.jpg" alt="produk" width="200px" class="shop-item-image">
+                        <p class="shop-item-price">Rp 25.000</p>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <div class="grid-content col-4 shop-item">
+                        <p class="shop-item-title">Joyko Loose Leaf Isi Kertas File Binder 50 Lembar B5-7026</p>
+                        <img src="img/collection/joyko loose leaf.jpg" alt="produk" width="200px" class="shop-item-image">
+                        <p class="shop-item-price">Rp 7.000</p>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                    <div class="grid-content col-4 shop-item">
+                        <p class="shop-item-title">Kiky Amplop Coklat Tali Folio 310 (10lbr)</p>
+                        <img src="img/collection/kiky amplop coklat.jpg" alt="produk" width="200px" class="shop-item-image">
+                        <p class="shop-item-price">Rp 12.000</p>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
                 </div>
             </div>
         </section>
