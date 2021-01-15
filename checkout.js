@@ -27,7 +27,7 @@ function ready() {
 }
 
 function purchaseClicked() {
-    alert('Thank you for your purchase')
+    alert('Terima Kasih, Lanjut Ke Laman Pembayaran')
     location.replace("pembayaran.html")
     updateCartTotal()
 }
