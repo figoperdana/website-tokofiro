@@ -5,6 +5,7 @@
     <title>Toko Firo</title>
     <link rel="icon" type="image/png" href="/img/LOGO FIRO5 2.png" />
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="pembayaran.js" async></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
 </head>
 
@@ -38,7 +39,7 @@
     <main>
         <section id="pembayaran">
             <div class="grid centered col-2">
-                <form class="formulir" style="margin-top: 100px;">
+                <form class="formulir" style="margin-top: 100px;" action="MainPage.html">
                     <h2 id="judul" style="font-family:'GothamMedium'">Pembayaran</h2>
                     <h4>Kontak Penerima</h4>
                     <input id="email" type="email" onkeyup="fill_email()" placeholder="Email" required>
@@ -57,7 +58,7 @@
                         <option value="Bank Mandiri">Bank Mandiri</option>
                         <option value="Bank BNI">Bank BNI</option>
                     </select>
-                    <input class="button" type="submit" name="buatpesanan" value="Buat Pesanan">
+                    <input class="button" type="submit" name="buatpesanan" value="Buat Pesanan" onclick="pembayaranClicked()">
                 </form>
             </div>
         </section>

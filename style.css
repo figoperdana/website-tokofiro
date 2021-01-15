@@ -538,6 +538,7 @@ a:link {
     }
     footer {
         background-color: black;
+        position: fixed;
     }
     .material-icons {
         bottom: 30px;
